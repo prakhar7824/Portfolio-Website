@@ -1,0 +1,144 @@
+/* Entire section styling */
+.contact-section {
+  position: relative; /* Helps with layout */
+  width: 100vw; /* Full viewport width */
+  min-height: 100vh; /* Optional: Full viewport height */
+  background-color: #000000; /* Pure black for entire background */
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Centers content vertically if needed */
+  padding: 80px 20px;
+  box-sizing: border-box; /* Avoid extra width due to padding */
+  overflow-x: hidden; /* No horizontal scroll */
+}
+
+/* Section Title */
+.contact-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #f5f5f5;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* Form styling */
+.contact-form {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  background-color: #1a1a1a; /* Slightly lighter for contrast */
+  border-radius: 12px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+}
+
+/* Each row in the form */
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+/* Input fields */
+.form-input {
+  flex: 1;
+  min-width: 250px;
+  padding: 15px 20px;
+  background-color: #222;
+  border: 1px solid #333;
+  color: #eee;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.form-input:focus {
+  border-color: #ff6f3c;
+  outline: none;
+  box-shadow: 0 0 8px rgba(255, 111, 60, 0.7);
+}
+
+/* Textarea */
+.form-textarea {
+  width: 100%;
+  min-height: 150px;
+  padding: 15px 20px;
+  background-color: #222;
+  border: 1px solid #333;
+  color: #eee;
+  border-radius: 8px;
+  font-size: 1rem;
+  resize: none;
+  transition: all 0.3s ease;
+}
+
+.form-textarea:focus {
+  border-color: #ff6f3c;
+  outline: none;
+  box-shadow: 0 0 8px rgba(255, 111, 60, 0.7);
+}
+
+/* Captcha row */
+.captcha-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.captcha-text {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.captcha-input {
+  width: 60px;
+  padding: 10px;
+  background-color: #222;
+  border: 1px solid #333;
+  color: #eee;
+  border-radius: 8px;
+}
+
+.captcha-label {
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+/* Send button */
+.send-button {
+  background-color: #ff6f3c;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  align-self: center;
+  box-shadow: 0px 5px 15px rgba(255, 111, 60, 0.3);
+}
+
+.send-button:hover {
+  background-color: #ff5722;
+  transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+
+  .contact-title {
+    font-size: 2.5rem;
+  }
+}

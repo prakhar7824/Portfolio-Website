@@ -1,0 +1,81 @@
+.education-section {
+    background-color: rgb(12, 11, 11); /* dark grey background */
+    color: #f0f0f0; /* light text */
+    width: 100vw; /* Stretch to full viewport width */
+    padding: 60px 0; /* Remove side padding, keep top/bottom */
+    text-align: center;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Prevent scroll issues */
+  }
+  
+  .section-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #ffffff;
+    position: relative;
+  }
+  
+  .section-title::after {
+    content: '';
+    display: block;
+    margin: 10px auto 0;
+    width: 60px;
+    height: 3px;
+    background-color: #ffffff;
+  }
+  
+  .education-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0 40px; /* Add internal padding for spacing */
+    box-sizing: border-box;
+  }
+  
+  .education-card {
+    background-color: #2c2c2c;
+    border-radius: 12px;
+    padding: 30px;
+    width: 300px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .education-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.1);
+  }
+  
+  .degree {
+    font-size: 1.4rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .institution {
+    font-size: 1.1rem;
+    color: #cccccc;
+    margin-bottom: 8px;
+  }
+  
+  .duration,
+  .score {
+    font-size: 0.95rem;
+    color: #aaaaaa;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .education-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 0 20px; /* Less padding on mobile */
+    }
+  
+    .education-card {
+      width: 90%;
+    }
+  }
+  

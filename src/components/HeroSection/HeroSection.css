@@ -1,0 +1,72 @@
+.hero-section {
+    width: 100%;
+    min-height: 90vh;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    margin-top: -50px;
+  }
+  
+  .hero-section .title {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #ef4444;
+    margin-top: 3rem;
+  }
+  
+  .background-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.05;
+    z-index: 1;
+  }
+  
+  .background-text h1 {
+    font-size: 10rem;
+    color: #065f46;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  
+  .profile-container {
+    width: 350px;
+    height: 350px;
+    margin-top: 2rem;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #fef3c7;
+    z-index: 2;
+  }
+  
+  .profile-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+  
+  .profile-pic:hover {
+    filter: grayscale(0%);
+  }
+  
+  .description {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    max-width: 600px;
+    padding: 0 1rem;
+    z-index: 2;
+  }
+  
+  .role {
+    color: #ef4444;
+    font-weight: bold;
+    transition: all 0.5s ease;
+  }
+  

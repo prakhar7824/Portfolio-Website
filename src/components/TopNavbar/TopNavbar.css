@@ -1,0 +1,57 @@
+.top-navbar {
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: transparent;
+  }
+  
+  .top-navbar .logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+  }
+
+  .top-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #111; /* Or your navbar bg color */
+    color: #fff;
+    position: fixed; /* Optional */
+    width: 100%;     /* Optional */
+    top: 0;          /* Optional */
+    z-index: 1000;   /* Optional */
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .download-cv-btn {
+    padding: 10px 20px;
+    background-color: #ff6b35;  /* Accent color */
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .download-cv-btn:hover {
+    background-color: #ff8c61;
+    transform: translateY(-2px);
+  }
+  

@@ -1,0 +1,26 @@
+.bottom-navbar {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+  }
+  
+  .bottom-navbar .nav-item {
+    color: white;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+  }
+  
+  .bottom-navbar .nav-item:hover {
+    color: #ef4444;
+    transform: translateY(-4px);
+  }
+  
