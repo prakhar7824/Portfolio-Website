@@ -4,31 +4,31 @@ import "./Projects.css";
 
 const projectsData = [
   {
-    title: "Connect and Meet",
+    title: "Portfolio Website",
     type: "Personal Project",
     description:
-      "A social platform that connects people through video calls and chats. Built using Next.js and MongoDB for seamless real-time communication.",
-    image: "/websites/portfolio-website.png",
-    githubLink: "https://github.com/PrakharPandey1506/connect-and-meet",
-    liveLink: "",
+      "A personal portfolio website showcasing projects, skills, and experience with a modern, responsive UI. Built with React.js, Tailwind CSS, and Framer Motion for smooth animations.",
+    image: "/websites/website1.png",
+    githubLink: "https://github.com/PrakharPandey1506/portfolio-website", // Assumed GitHub link based on your username
+    liveLink: "https://portfolio-six-gules-30.vercel.app/", // Not hosted yet, as per your resume
   },
   {
-    title: "Kilogram Chat App",
+    title: "VerdictIQ - AI-Powered Legal Assistance",
     type: "Personal Project",
     description:
-      "A modern chat app with real-time messaging, media sharing, and user authentication. Developed using React and Firebase.",
-    image: "/websites/portfolio-website.png",
-    githubLink: "https://github.com/PrakharPandey1506/kilogram-chat-app",
-    liveLink: "", // Not hosted yet
+      "An AI-driven legal analytics platform to predict case outcomes and analyze legal documents using ML and NLP. Developed with the MERN stack and Explainable AI for transparency.",
+    image: "/websites/website2.png",
+    githubLink: "https://github.com/PrakharPandey1506/verdictiq", // Assumed GitHub link based on your username
+    liveLink: "https://portfolio-six-gules-30.vercel.app/", // Live link mentioned in resume but not provided, assuming not hosted yet
   },
   {
-    title: "Bloggers App",
+    title: "Plus9OneTours",
     type: "Personal Project",
     description:
-      "A blogging platform where users can create, edit, and publish blogs. Includes a rich text editor and SEO features.",
-    image: "/websites/portfolio-website.png",
-    githubLink: "https://github.com/PrakharPandey1506/bloggers-app",
-    liveLink: "",
+      "A travel website to explore destinations in India and beyond with a scenic design and engaging animations. Built with the MERN stack and Tailwind CSS.",
+    image: "/websites/website3.png",
+    githubLink: "https://github.com/PrakharPandey1506/plus9onetours", // Assumed GitHub link based on your username
+    liveLink: "https://plus9onetours.vercel.app/", // Not hosted yet
   },
 ];
 
