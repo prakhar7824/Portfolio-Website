@@ -5,8 +5,8 @@
   align-items: flex-start;
   gap: 30px;
   padding: 40px;
-  background-color: #111;
-  color: #fff;
+  background-color: var(--surface-color);
+  color: var(--text-color);
 }
 
 /* LEFT SIDE STYLES */
@@ -16,18 +16,19 @@
 
 .about-left h1 {
   font-size: 3rem;
-  color: #ffffff;
+  color: var(--text-color);
   margin-bottom: 20px;
 }
 
 .about-left h1 span {
-  color: #ef4444; /* Accent color */
+  color: var(--accent-color);
 }
 
 .about-description {
   font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 30px;
+  color: var(--text-secondary);
 }
 
 /* Social icons wrapper */
@@ -39,12 +40,12 @@
 
 .social-icons a {
   font-size: 1.8rem;
-  color: #fff;
+  color: var(--text-color);
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: #6c63ff;
+  color: var(--accent-color);
   transform: scale(1.2);
 }
 
@@ -60,6 +61,7 @@
   max-width: 100%;
   height: auto;
   border-radius: 10px;
+  border: 1px solid var(--border-color);
 }
 
 /* Optional: Responsive Design */
@@ -81,6 +83,6 @@
 
 .age-counter {
   font-size: 1.2rem;
-  color: #ccc;
+  color: var(--text-secondary);
   margin-bottom: 1rem;
 }

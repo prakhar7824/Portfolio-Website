@@ -1,5 +1,6 @@
 import React from "react";
 import "./TopNavbar.css";
+import ThemeToggle from "../ThemeToggle/ThemeToggle";
 
 const TopNavbar = () => {
   return (
@@ -7,8 +8,9 @@ const TopNavbar = () => {
       <div className="logo">Prakhar Pandey</div>
       
       <div className="nav-links">
+        <ThemeToggle />
         <a 
-          href="/Prakhar_Pandey_CV.pdf" // <-- Add your file name here
+          href="/personal/resumePrakhar-new.pdf" 
           download 
           className="download-cv-btn"
         >
