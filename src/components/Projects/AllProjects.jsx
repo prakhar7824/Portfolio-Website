@@ -58,6 +58,42 @@ const projectData = [
     github: "https://github.com/PrakharPandey1506/roomify",
     hosted: "Yet not hosted",
   },
+  {
+    id: 7,
+    title: "PokéVerse: Interactive Pokédex & Pokémon Team Builder",
+    description: "Interactive Pokédex and Pokémon team-building web app with battle simulation. Built with React, TypeScript, Tailwind CSS, and PokeAPI for detailed browsing and a user-friendly UI.",
+    tags: ["frontend"],
+    snapshot: "/websites/website7.png",
+    github: "https://github.com/prakhar7824/poke-verse",
+    hosted: "https://poke-verse-six.vercel.app/", // add URL if available
+  },
+  {
+    id: 8,
+    title: "Gate Pass",
+    description: "Authentication and authorization microservice with RBAC, JWT, email verification, password reset, rate limiting, built for secure multi-tenant applications.",
+    tags: ["backend", "fullstack"],
+    snapshot: "/websites/website8.png",
+    github: "https://github.com/prakhar7824/GatePass",
+    hosted: "", 
+  },
+  {
+    id: 9,
+    title: "PetShelter 🐾",
+    description: "Full-stack web app connecting shelter pets with adopters, featuring a shelter dashboard and adoption request workflows. Built with React, TypeScript, Node.js, and MongoDB.",
+    tags: ["fullstack"],
+    snapshot: "/websites/website9.png",
+    github: "https://github.com/prakhar7824/Pet-Shelter",
+    hosted: "https://paw-path-ten.vercel.app/",
+  },
+  {
+    id: 10,
+    title: "AI Calling Agent",
+    description: "AI-powered voice agent using LiveKit & Retrieval-Augmented Generation for domain-specific voice conversations with NLP and speech technologies.",
+    tags: ["fullstack", "ai"],
+    snapshot: "/websites/website10.png",
+    github: "https://github.com/prakhar7824/KnowledgeBot", // in development, private
+    hosted: "",
+  },
 ];
 
 const AllProjects = () => {
