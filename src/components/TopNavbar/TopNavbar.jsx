@@ -10,7 +10,7 @@ const TopNavbar = () => {
       <div className="nav-links">
         <ThemeToggle />
         <a 
-          href="/website/Prakhar_Pandey_CV.pdf" 
+          href="/websites/Prakhar_Pandey_CV.pdf" 
           download 
           className="download-cv-btn"
         >
