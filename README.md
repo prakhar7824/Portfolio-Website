@@ -107,7 +107,7 @@ If you're building a production-grade portfolio, consider:
 
 You can preview the site at:
 
-🔗 [https://your-portfolio.vercel.app](https://meetprakhar.vercel.app)
+🔗 [https://meetprakhar.vercel.app](https://meetprakhar.vercel.app)
 
 Update with your actual deployment link.
 
